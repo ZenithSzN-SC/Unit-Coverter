@@ -5,18 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Metric/Imperial Unit Conversion</h1>
-    <input type="text" placeholder="0" id="input"/>           
-    <Button id="convert-Btn">Convert</Button>
-    <h2>Length (Meter/Feet)</h2>
-    <p id="Length"></p>
-    <h2>Volume (Liters/Gallon)</h2>
-    <p id="Volume"></p>
-    <h2>Mass (Kilograms/pounds)</h2>
-    <p id="Mass"></p>
+    <div class="frame">
+        <div class="input">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="text" placeholder="0" id="input"/>            
+            <Button id="convert-Btn">Convert</Button>
+        </div>
+        <div class="final">
+            <h2>Length (Meter/Feet)</h2>
+            <p id="Length"></p>
+        </div>
+        <div class="final">
+            <h2>Volume (Liters/Gallon)</h2>
+            <p id="Volume"></p>
+        </div>
+        <div>
+            <h2>Mass (Kilograms/pounds)</h2>
+            <p id="Mass"></p>
+        </div>
+    </div>
+    
     <script src="scripts.js"></script>
 </body>
 </html>
